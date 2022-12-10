@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken');
-const accessTokenSecret = 'secure';
+const accessTokenSecret = 'vathiyarsecure';
 module.exports = function (req, res, next) {
     try {
         const authHeader = req.headers.authorization;
